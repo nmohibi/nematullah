@@ -1,0 +1,156 @@
+.head1 {
+    font-size: 40px;
+    color: #009900;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.head2 {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+body {
+    margin: 0 auto;
+    background-position: center;
+    background-size: contain;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 25px;
+
+}
+
+.menu-log {
+    right: auto;
+    float: right;
+}
+
+#one {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+    justify-content: flex-end; /* Align content to the bottom */
+    min-height: 0vh; /* Take at least the full height of the viewport */
+    padding: 0;
+    
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: auto;
+  }
+        ul li {
+        list-style: none;
+        }
+        ul li a {
+        position: relative;
+        width:60px;
+        height:60px;
+        display:inline-block;
+        text-align:center;
+        margin:0 10px;
+        border-radius: 50%;
+        padding: 6px;
+        box-sizing: border-box;
+        text-decoration:none;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+        background: linear-gradient(0deg, #ec3838, #ffffff);
+        transition: .5s;
+        margin-top: auto;
+        }
+        ul li a:hover {
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        text-decoration:none;
+        }
+        ul li a .fab {
+        width: 100%;
+        height:100%;
+        display:inline-block;
+        background: linear-gradient(0deg, #ff0000, #ddd);
+        border-radius: 50%;
+        line-height: calc(60px - 12px);
+        font-size:24px;
+        color: #262626;
+        transition: .5s;
+        }
+        ul li:nth-child(1) a:hover .fab {
+        color: #3b5998;
+        }
+        ul li:nth-child(2) a:hover .fab {
+        color: #000000;
+        }
+        ul li:nth-child(3) a:hover .fab {
+        color: #FFFC00;
+        }
+        ul li:nth-child(4) a:hover .fab {
+        color: #007bb6;
+        }
+        ul li:nth-child(5) a:hover .fab {
+        color: #833ab4;
+        }
+
+
+.body_sec {
+    margin: 30px;
+    font-size: large;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1313 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 35px;
+      margin-left: 40px;
+      margin: 40px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+#mine {
+    position: absolute;
+    top: 5px;
+    right: 800px;
+    max-width: 100px; /* Adjust the max-width as needed */
+    height: auto;
+    border-radius: 50%;
+  }
